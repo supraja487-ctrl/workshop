@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        .main1,.main2,.main3{
+            width: 98.8vw;
+            height: 100vh;
+        }
+        .main1{
+            background-image: url(img1.avif);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        .header{
+            padding-top: 20px;
+            text-align: center;
+        }
+        .nav{
+            display: flex;
+            justify-content: center;
+        }
+        .nav a{
+            text-decoration: none;
+            margin: 10px;
+            color: black;
+        }
+        .container{
+            width: 80%;
+            height: 60%;
+            margin: auto;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            column-gap: 10px;
+            background-color: rgba(255,255,255,0.634);
+        }
+        .img{
+            width: 45%;
+            height: 85%;
+            border-radius: 20px;
+            background-image: url(img1.avif);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .content{
+            width: 49%;
+        }
+        .img1{
+            width: 43%;
+            height: 85%;
+            border-radius: 20px;
+        }
+        .main4{
+           height: 100%;
+           display: flex;
+           align-items: center;
+           justify-content: center; 
+        }
+        .main2{
+            background-image: url(img3.avif);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        .main3{
+            background-image: url(img4.avif);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main10">
+        <div class="main1">
+            <div class="fixed">
+                <div class="header">
+                     <h2>Adorable puppies</h2>
+                </div>
+                <div class="nav">
+                    <a href="#">Playful puppies</a>
+                    <a href="#">Sleepy puppies</a>
+                    <a href="#">Curious puppies</a>
+                </div>
+            </div>
+            <div class="container">
+                <div class="img"></div>
+                <div class="content">
+                    <h2>Playful puppies</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis beatae soluta labore quasi illum error quo porro neque, iusto veritatis, ea eligendi blanditiis itaque deleniti consectetur fugit hic iure ipsa.</p>
+                </div>
+            </div>
+        </div>
+        <div class="main2" id="sleepy puppies">
+            <div class="main4">
+                <div class="container">
+                    <div class="content">
+                        <h2>sleepy puppies</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia esse dolorem aut ratione aliquid fugiat obcaecati. Quo tenetur dolor id natus temporibus obcaecati officia! Earum accusantium perspiciatis quidem sapiente nam.</p>
+                    </div>
+                    <div class="img1">
+                        <img style="border-radius:20px;" height="100%" width="100%" src="img4.avif" alt="">
+                    </div>
+
+                </div>
+            </div>
+         </div>
+         <div class="main1" id="Curious puppies">
+            <div class="main4">
+                <div class="container">
+                    <div class="content">
+                        <h2>Curious puppies</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga rem molestiae voluptate, cum voluptatem dolores repudiandae quam quibusdam repellendus obcaecati consequatur deleniti dolorum cumque repellat voluptatum placeat asperiores exercitationem ratione!</p>
+                    </div>
+                    <div class="img1">
+                        <img style="border-radius: 20px;" height="100%" width="100%" src="img3.avif" alt="">
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </div>
+</body>
+</html>
